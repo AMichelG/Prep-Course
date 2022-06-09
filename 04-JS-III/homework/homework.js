@@ -71,8 +71,8 @@ function arrayContiene(array, elemento) {
   for(i=0; i < array.length; i++) {
     if(elemento === array[i]) {
       return true;
-    } return false;
-  }
+    }
+  } return false;
 }
 
 
@@ -104,7 +104,12 @@ function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
-  Math.max.apply(null, numeros);
+  var max = 0;
+  for (let i = 0; i < numeros.length; i++) {
+    if(numeros[i]> max) {
+      max = numeros[i];
+    }
+  } return max;
 }
 
 
