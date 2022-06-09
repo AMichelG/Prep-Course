@@ -211,6 +211,18 @@ function breakStatement(numero) {
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
   // Tu código:
+  var arr = [];
+  var res = 0;
+  var val = 0;
+  for (let i = 0; i < 10; i++) {
+    res += 2;
+    val = numero + res;
+    arr.push(val);
+    if( i === val){
+      break;
+    } return 'Se interrumpió la ejecución';
+  } return arr;
+  //No puedo guardar
 }
 
 
