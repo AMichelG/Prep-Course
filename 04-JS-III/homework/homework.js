@@ -223,7 +223,6 @@ function breakStatement(numero) {
       break;
     } 
   } return arr;
-  //No puedo guardar
 }
 
 
